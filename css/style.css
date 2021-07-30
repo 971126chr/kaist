@@ -420,9 +420,43 @@ h2.paperback-h2 a {
 }
 table.paperback-table tbody td {
     background: #eaeaea;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #cccccc;
+    padding: 6.5px 0 5.5px 10px;
+}
+table.paperback-table tbody tr:nth-child(2) td, table.paperback-table tbody tr:nth-child(3) td {
+    padding-top: 7.5px;
+}
+table.paperback-table tbody tr:last-child td {
+    padding-bottom: 2.5px;
 }
 table.paperback-table tbody td a {
     line-height: 21px;
+    font-size: 15px;
+    color: #000000;
+    display: block;
+    position: relative;
+}
+table.paperback-table tbody td a span.td-gray {
+    font-size: 11px;
+    color: #807f7f;
+    display: block;
+}
+table.paperback-table tbody td a span.td-arrow {
+    background: url("../img/main/td-arrow.png") no-repeat;
+    padding: 6.5px 4.5px;
+    position: absolute;
+    top: 15px;
+    right: 8px;
+}
+.serial-table-content {
+    margin-top: 12px;
+}
+.dissertation-content {
+    margin-top: 13px;
+}
+.non-book-content {
+    margin-top: 14px;
 }
 
 /*태블릿 화면*/
