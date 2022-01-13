@@ -387,7 +387,8 @@ ul.click-list li:last-child a {
     background: none;
 }
 .table-content {
-    margin-top: 10px;
+    margin: 10px auto 0;
+    width: 75%;
 }
 table.paperback-table {
     border-bottom: 1px solid #cccccc;
@@ -473,6 +474,10 @@ table.paperback-table tbody td a span.td-arrow {
         margin-right: 10px;
     }
     */
+    .table-content {
+        width: 50%;
+    }
+
 }
 
 /*스마트폰 화면*/
@@ -505,4 +510,8 @@ table.paperback-table tbody td a span.td-arrow {
     ul.click-list li:not(:nth-child(5)):not(:last-child) {
         margin-bottom: 1px;
     }
+    .table-content {
+        width: 320px;
+    }
+    
 }
